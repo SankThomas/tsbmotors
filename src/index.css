@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,4 +8,22 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+}
+
+.showcase {
+  height: 500px;
+  background: url('./images/audi-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.showcase h1 {
+  font-family: 'Hanalei Fill', cursive;
+}
+
+@media (min-width: 1280px) {
+  .showcase {
+    height: 700px;
+  }
 }

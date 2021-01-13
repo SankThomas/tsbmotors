@@ -1,0 +1,6 @@
+1. npx create-react-app
+2. installed tailwind css
+    - https://tailwindcss.com/docs/installation
+3. cleanup - remove App.css, remove imports from App.js, restructure index.html
+
+Git repo: https://github.com/SankThomas/tsbmotors.git
